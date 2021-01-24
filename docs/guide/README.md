@@ -1,6 +1,10 @@
 # 社交联盟
-
+### 关键词
+uniapp chat Community Dating Social app
+聊天 社区 社交 交友 app
 ### 遵循MIT开源协议，免费商用
+
+## [官网](https://shejiao.qingchiapp.com/)
 
 ## 介绍
 
@@ -8,14 +12,14 @@
 社交联盟是一个提供前后端社交业务组件的框架，是一个符合用户隐私协议用户社交数据互通平台，是一个各社交软件组成的社交联盟
 
 ### 对我有什么好处？
-1. 能帮助您提高开发效率，提供基于社交业务的前后端组件，包括不限于：评论组件、动态组件、消息组件、用户详情组件
+1. 能帮助您提高开发社交软件的效率，提供基于社交业务的前后端组件，包括不限于：评论组件、动态组件、消息组件、用户详情组件
 2. 带来免费的流量，免费与其他社交软件互通数据，丰富您的社区内容，用户数量，提升用户间的互动
 3. 提高盈利能力，可参加社交联盟的运营活动，获得盈利
 
 ### 愿景
-* 社交联盟 in 社交领域，要成为像spring in java，vue in 前端，vuepress in 快速建站，uni-app in 跨端开发一样的存在
+* 社交联盟 in 社交领域，要成为像spring in java，vue in js，vuepress in 快速建站，uni-app in 跨端开发一样的存在
 * 套用马云大叔的话，我们的目标是，让天下没有难做的社交软件
-* 让开发者通过本项目快速开发一款可上线运营让用户使用的社交软件
+* 让开发者通过本项目快速开发一款高完成度可上线运营并让用户良好使用的社交软件
 
 ### 产品现状与规划
 #### 现状
@@ -26,6 +30,19 @@
 * 我们计划在2021年完成，前后端业务组件和数据互通功能的开发，完成愿景百分之80%
 * 在2022年，支持社交联盟的联合运营活动，完成愿景96.5%
 #### 详细策略、计划
+
+1. 前端业务组件计划
+    * 制作多款社交软件，基于多款社交软件业务，提取公共业务组件、聊天组件、动态组件、用户详情组件等等，并提供多种主题、样式、组合方式，
+    让开发者可以通过各种主题样式自由组合出自己的社交软件
+2. 后端数据业务组件计划
+    * 多款社交软件使用同一后台，抽象提取公共业务，分离自定义业务，通过配置方式，开发者自己选择是否支持某些功能，并且将后台业务与前台业务配合，方便使用者快速开发。
+3. 社交数据互通计划
+    * 此处为最具争议的功能，关于实现策略和计划，讨论了两个问题，
+    ####  * 以下两点详细内容，请参考 [关于社交联盟app间数据互通交换的可行性讨论、计划 ](https://github.com/qingchiapp/qingchi-uni/issues/38)  
+    * 一、为什么联盟成员愿意分享数据，给成员带来了哪些好处？
+    * 二、如何实现数据互通交换？
+4. 社交sdk计划
+    垃圾内容过滤sdk，社交动态推荐算法sdk  
 
 ## 功能
 
@@ -42,8 +59,67 @@
 - [x] <font color=blue>清池app私有化部署手册，已编写完成（由 @啦啦啦拉拉啦啦啦 编写）</font>，待发布
 - [ ] 基础社交领域组件(动态列表组件、动态详情、聊天组件)，未支持
 - [ ] 提供用户社交(用户开放的朋友圈动态内容、个人信息内容)，未支持
+- [ ] 垃圾内容过滤sdk，社交动态推荐算法sdk  ，未支持
 
-## 对标
+## 快速体验
+
+### 技术架构
+* 前端 uniapp + vue + ts
+* 后端 java + springboot + mysql
+
+### 产品直接下载体验
+* 有自己项目，或者想自己做个项目的朋友欢迎入群交流，大家一起讨论变现，接广告，如何做好产品相关问题
+
+<table>
+  <thead>
+  <tr>
+    <th>我微信，可进社交软件app交流群，互相学习，讨论问题</th>
+    <th>微信扫码体验（不支持ios）</th>
+    <th>QQ扫码体验（支持ios）</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+      <td align="center" valign="middle">
+        <img width="222px" src="https://cdxapp-1257733245.cos.ap-beijing.myqcloud.com/qingchi/static/wxcode.png">
+      </td>
+      <td align="center" valign="middle">
+        <img width="222px" src="https://cdxapp-1257733245.cos.ap-beijing.myqcloud.com/qingchi/home/qingchiwxcode.jpg!thumbnail">
+      </td>
+      <td align="center" valign="middle">
+         <img width="222px" src="https://cdxapp-1257733245.cos.ap-beijing.myqcloud.com/qingchi/home/qingchiqqcode.png!thumbnail">
+      </td>
+    </tr>
+  <tr></tr>
+  </tbody>
+</table>
+
+app已上架，应用宝、360、oppo、vivo、小米、阿里应用中心，大家可搜索 清池 自行下载。
+
+也可点击下载链接 [下载app](https://openbox.mobilem.360.cn/index/d/sid/4534383)
+
+已上架，微信小程序、qq小程序、下方有二维码，可扫码体验，也可在小程序中自行搜索 清池
+
+### 代码启动体验
+插件仅支持git方式下载，不支持zip方式，详细配置手册请参考 [详细配置手册](https://shejiao.qingchiapp.com/configGuide/)
+
+### 前端源码地址
+[清池前端项目 git地址 qingchi-uni](https://github.com/qingchiapp/qingchi-uni.git)
+
+### 后端源码地址
+* [清池后端web项目 git地址 qingchi-web](https://github.com/qingchiapp/qingchi-web.git)
+* [清池后端基础服务项目 git地址 qingchi-base](https://github.com/qingchiapp/qingchi-base.git)
+#### Project setup
+```
+npm install
+```
+
+#### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+## 对标产品
 ### 对标和相似产品介绍
 #### 业务中台对标产品
 * [discuz(社交解决方案)](https://discuz.com/)
@@ -83,67 +159,3 @@
      * 他方缺点，仅开放了登陆接口和用户名等极少用户信息
      * 我方优点，开放更多社交领域数据，根据oauth2协议，可获取用户授权开放给指定应用的社交数据，如朋友圈动态，部分个人信息等
 
-## 产品体验
-
-### 关键词
-uniapp chat Community Dating Social app
-聊天 社区 社交 交友 app
-
-### 技术架构
-* 前端 uniapp + vue + ts
-* 后端 java + springboot + mysql
-
-
-### 下载
-插件仅支持git方式下载，不支持zip方式
-
-### 前端源码地址
-[清池前端项目 git地址 qingchi-uni](https://github.com/qingchiapp/qingchi-uni.git)
-
-### 后端源码地址
-* [清池后端web项目 git地址 qingchi-web](https://github.com/qingchiapp/qingchi-web.git)
-* [清池后端基础服务项目 git地址 qingchi-base](https://github.com/qingchiapp/qingchi-base.git)
-
-### 体验
-
-app已上架，应用宝、360、oppo、vivo、小米、阿里应用中心，大家可搜索 清池 自行下载。
-
-也可点击下载链接 [下载app](https://openbox.mobilem.360.cn/index/d/sid/4534383)
-
-已上架，微信小程序、qq小程序、下方有二维码，可扫码体验，也可在小程序中自行搜索 清池
-
-#### Project setup
-```
-npm install
-```
-
-#### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-* 有自己项目，或者想自己做个项目的朋友欢迎入群交流，大家一起讨论变现，接广告，如何做好产品相关问题
-
-<table>
-  <thead>
-  <tr>
-    <th>我微信，可进社交软件app交流群，互相学习，讨论问题</th>
-    <th>微信扫码体验（不支持ios）</th>
-    <th>QQ扫码体验（支持ios）</th>
-  </tr>
-  </thead>
-  <tbody>
-  <tr>
-      <td align="center" valign="middle">
-        <img width="222px" src="https://cdxapp-1257733245.cos.ap-beijing.myqcloud.com/qingchi/static/wxcode.png">
-      </td>
-      <td align="center" valign="middle">
-        <img width="222px" src="https://cdxapp-1257733245.cos.ap-beijing.myqcloud.com/qingchi/home/qingchiwxcode.jpg!thumbnail">
-      </td>
-      <td align="center" valign="middle">
-         <img width="222px" src="https://cdxapp-1257733245.cos.ap-beijing.myqcloud.com/qingchi/home/qingchiqqcode.png!thumbnail">
-      </td>
-    </tr>
-  <tr></tr>
-  </tbody>
-</table>

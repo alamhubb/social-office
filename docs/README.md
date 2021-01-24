@@ -3,7 +3,7 @@ home: true
 heroText: 清池 - 社交联盟
 tagline: 免费的社交软件开发框架 + 运营支持合作联盟
 actionText: 快速入门 →
-actionLink: /zh/guide/
+actionLink: /guide/
 features:
 - title: 开发提效
   details: 社交领域前后端业务组件、模板，约定优于配置原则，支持自定义
