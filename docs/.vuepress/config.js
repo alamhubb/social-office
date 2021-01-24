@@ -1,5 +1,5 @@
 module.exports = {
-  title: '清池 - 社交软件联盟',
+  title: '社交联盟',
   themeConfig: {
     displayAllHeaders: true,
     nav: [
